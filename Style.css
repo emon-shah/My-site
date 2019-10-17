@@ -1,0 +1,69 @@
+body{
+margin: 0;
+padding: 0;
+font-family: "montserrat",sans-serif;
+
+min-height: 100vh;
+background-image: url(QUotes.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.container{
+
+width: 100%;
+position: absolute;
+top:50%;
+
+transform: translateY(-50%);
+
+color: white;
+
+}
+
+.container h1{
+
+	font-size: 100px;
+	margin: 0;
+	font-weight: 800;
+	background: url(2.jpg) no-repeat;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip:text;
+	
+}
+
+.container a{
+
+	text-decoration: none;
+	background: #e55039aa;
+	color: #fff;
+	padding: 12px 24px;
+	border: 5px solid green;
+	display: inline-block;
+	border-radius: 25px;
+	font-size: 28px;
+	text-transform: uppercase;
+	transition: 0.4s;
+}
+.container a:hover{
+	background: blue;
+}
+.container h2{
+
+font-style: italic;
+font-size: 40px;
+	margin: 0;
+	font-weight: 1800px;
+	color: skyblue;
+     font-family: verdana;
+}
+
+.container p{
+
+    font-style: italic;
+    font-size:10px;
+	margin: 110;
+	font-weight: 1800px;
+	color: yellow;
+     font-family: verdana;
+}
